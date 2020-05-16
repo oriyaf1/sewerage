@@ -1,0 +1,29 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+.parent > .child {
+  display: table-cell;
+  vertical-align: middle;
+}
+.content-section {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  margin-bottom: 20px; 
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
